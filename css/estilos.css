@@ -1,0 +1,90 @@
+body {
+    background-color: #FAEBE0;
+}
+
+header {
+    background-color: #FAEBE0;
+    text-align: center;
+}
+
+nav {
+    background-color: #C9E4C5;
+}
+
+section {
+    background-color: #B5CDA3;
+    grid-column: 1/4;
+}
+
+aside {
+    background-color: #B5CDA3;
+    grid-column: 4/5;
+}
+
+footer {
+    background-color: #C1AC95;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: rgb(0, 133, 0);
+}
+
+.submenu {
+    position: absolute;
+    background: rgb(219, 214, 214);
+    width: 130%;
+    visibility: hidden;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
